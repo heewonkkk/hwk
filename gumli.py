@@ -10,7 +10,7 @@ import numpy as np
 
 try:
     # 상대 경로로 파일 읽기 시도
-    money = pd.read_csv("c:\\auto_excel\\money_data7.csv")
+    money = pd.read_csv("money_data7.csv")
 except FileNotFoundError:
     # 파일이 없는 경우 사용자에게 알림
     st.error("money_data7.csv 파일을 찾을 수 없습니다. 파일이 저장소의 메인 디렉토리에 있는지 확인하세요.")
