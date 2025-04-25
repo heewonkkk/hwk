@@ -1,6 +1,6 @@
-streamlit
 pandas
 matplotlib
 numpy
 plotly
-openai
+streamlit>=1.8.0
+openai>=0.27.0
